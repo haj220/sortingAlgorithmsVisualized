@@ -4,7 +4,7 @@
 import random
 import pygame
 
-numEntries = 512  # Number of entries in the array (0 -> numEntries)
+numEntries = 512 # Number of entries in the array (0 -> numEntries)
 factor = 1       # Amount of pixels per block
 current = ""
 
@@ -19,8 +19,8 @@ showHeap = False
 showShell = False
 showCocktail = False
 showGnome = False
-showBitonic = True  # Note: numEntries must be a power of 2
-showRadix = True
+showBitonic = False  # Note: numEntries must be a power of 2
+showRadix = False
 
 
 # Screen size is dependent on the number of entries and the block size
